@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33FC83F221E64FE80002B0E6 /* NiceCars-StartAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NiceCars-StartAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FC83F221E64FE80002B0E6 /* SpriteKitAnimationsExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitAnimationsExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FC83F521E64FE80002B0E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33FC83F721E64FE80002B0E6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		33FC83F921E64FE80002B0E6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		33FC83E921E64FE80002B0E6 = {
 			isa = PBXGroup;
 			children = (
-				33FC83F421E64FE80002B0E6 /* NiceCars-StartAnimation */,
+				33FC83F421E64FE80002B0E6 /* SpriteKitAnimationsExamples */,
 				33FC83F321E64FE80002B0E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		33FC83F321E64FE80002B0E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33FC83F221E64FE80002B0E6 /* NiceCars-StartAnimation.app */,
+				33FC83F221E64FE80002B0E6 /* SpriteKitAnimationsExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33FC83F421E64FE80002B0E6 /* NiceCars-StartAnimation */ = {
+		33FC83F421E64FE80002B0E6 /* SpriteKitAnimationsExamples */ = {
 			isa = PBXGroup;
 			children = (
 				33FC83F521E64FE80002B0E6 /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				33FC840421E64FEA0002B0E6 /* LaunchScreen.storyboard */,
 				33FC840721E64FEA0002B0E6 /* Info.plist */,
 			);
-			path = "NiceCars-StartAnimation";
+			path = SpriteKitAnimationsExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33FC83F121E64FE80002B0E6 /* NiceCars-StartAnimation */ = {
+		33FC83F121E64FE80002B0E6 /* SpriteKitAnimationsExamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33FC840A21E64FEA0002B0E6 /* Build configuration list for PBXNativeTarget "NiceCars-StartAnimation" */;
+			buildConfigurationList = 33FC840A21E64FEA0002B0E6 /* Build configuration list for PBXNativeTarget "SpriteKitAnimationsExamples" */;
 			buildPhases = (
 				33FC83EE21E64FE80002B0E6 /* Sources */,
 				33FC83EF21E64FE80002B0E6 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "NiceCars-StartAnimation";
+			name = SpriteKitAnimationsExamples;
 			productName = "NiceCars-StartAnimation";
-			productReference = 33FC83F221E64FE80002B0E6 /* NiceCars-StartAnimation.app */;
+			productReference = 33FC83F221E64FE80002B0E6 /* SpriteKitAnimationsExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 33FC83ED21E64FE80002B0E6 /* Build configuration list for PBXProject "NiceCars-StartAnimation" */;
+			buildConfigurationList = 33FC83ED21E64FE80002B0E6 /* Build configuration list for PBXProject "SpriteKitAnimationsExamples" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33FC83F121E64FE80002B0E6 /* NiceCars-StartAnimation */,
+				33FC83F121E64FE80002B0E6 /* SpriteKitAnimationsExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -295,12 +295,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "NiceCars-StartAnimation/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SpriteKitAnimationsExamples/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nlharri.NiceCars-StartAnimation";
+				PRODUCT_BUNDLE_IDENTIFIER = nlharri.SpriteKitAnimationsExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -312,12 +312,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "NiceCars-StartAnimation/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SpriteKitAnimationsExamples/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nlharri.NiceCars-StartAnimation";
+				PRODUCT_BUNDLE_IDENTIFIER = nlharri.SpriteKitAnimationsExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33FC83ED21E64FE80002B0E6 /* Build configuration list for PBXProject "NiceCars-StartAnimation" */ = {
+		33FC83ED21E64FE80002B0E6 /* Build configuration list for PBXProject "SpriteKitAnimationsExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33FC840821E64FEA0002B0E6 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33FC840A21E64FEA0002B0E6 /* Build configuration list for PBXNativeTarget "NiceCars-StartAnimation" */ = {
+		33FC840A21E64FEA0002B0E6 /* Build configuration list for PBXNativeTarget "SpriteKitAnimationsExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33FC840B21E64FEA0002B0E6 /* Debug */,
